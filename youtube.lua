@@ -1,8 +1,8 @@
 -- YouTube Link Resolver for VLC with Improved Error Handling and Better Reliability
 -- Place this script in VLC's lua/playlist directory
 
-local yt_dlp_path = 'yt-dlp.exe'
-local yt_dlp_silent_path = 'ytdlp-silent-xp.exe'
+local yt_dlp_path = 'C:\Program Files\VideoLAN\VLC\lua\playlist\yt-dlp.exe'
+local yt_dlp_silent_path = 'C:\Program Files\VideoLAN\VLC\lua\playlist\ytdlp-silent-xp.exe'
 
 function sleep(ms)
     local start = os.clock()
